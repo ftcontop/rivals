@@ -39,7 +39,7 @@ function Task()
 		function v1.revert(p6) return v_u_4(p6) end
 		function v1.convert(p51) return v_u_3(p51) end
 		-------------------------------------------------------------------------------
-		local LSMT = game:GetObjects("rbxassetid://126113170246030")[1]
+	
 
 		function Close(Objectftween)
 			TweenService:Create(Objectftween, TweenInfo.new(0.65, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {
@@ -466,4 +466,5 @@ local Window = Task:Window({
 	MinIcon = "rbxassetid://102391696721436",
 	Workink = "https://work.ink/21KD/free-script-ftchub",
 })
+
 
