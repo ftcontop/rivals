@@ -1052,25 +1052,6 @@ end
 -- ========================================
 
 local function Initialize()
-    -- Check for saved key first
-    local savedKey = LoadSavedKey()
-    if savedKey and savedKey ~= "" then
-        SetLoading(true)
-        ShowStatus("Checking saved key...", false, false)
-        
-        local isValid, result = ValidateWorkinkKey(savedKey)
-        
-        if isValid then
-            ShowStatus("Saved key validated!", false, true)
-            task.wait(0.5)
-            LoadScript()
-            return
-        else
-            DeleteSavedKey()
-        end
-    end
-    
-    -- Create GUI if no valid saved key
     local screenGui = CreateMainGUI()
     local backdrop = CreateBackdrop(screenGui)
     CreateParticleContainer(backdrop)
