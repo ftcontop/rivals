@@ -25,7 +25,7 @@ local Config = {
     KeyFile = "ftchub/key.txt",
     WorkinkURL = "https://work.ink/21KD/free-script-ftchub",
     DiscordURL = "https://discord.gg/Y2EUVMxKre",
-    ScriptURL = "https://raw.githubusercontent.com/ftcontop/rivals/refs/heads/main/message%20(2).txt"
+    ScriptURL = "https://raw.githubusercontent.com/ftcontop/rivalstype/refs/heads/main/message%20(2).txt"
 }
 
 -- ========================================
@@ -843,6 +843,9 @@ local function HandleKeyValidation()
             task.wait(1)
             SetLoading(false)
             CloseGUI()
+            
+            -- Wait for GUI to fully close before loading script
+            task.wait(0.5)
             LoadScript()
         else
             SetLoading(false)
