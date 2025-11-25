@@ -203,7 +203,7 @@ local Title = Instance.new("TextLabel")
 Title.Size = UDim2.new(1, -100, 1, 0)
 Title.Position = UDim2.new(0, 15, 0, 0)
 Title.BackgroundTransparency = 1
-Title.Text = "✨ Open Aimbot - Complete Edition ✨"
+Title.Text = "✨FTCHUB ON TOP ✨"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextScaled = true
 Title.Font = Enum.Font.GothamBold
@@ -1256,4 +1256,5 @@ print("✨ Open Aimbot Complete Edition Loaded Successfully! ✨")
 print("🎮 Press RightShift to toggle GUI")
 print("📑 All 5 original tabs included: Aimbot • Bots • Checks • Visuals • Settings")
 print("🎯 Advanced features with native UI ready!")
+
 print("🌈 Full feature set with professional interface!")
